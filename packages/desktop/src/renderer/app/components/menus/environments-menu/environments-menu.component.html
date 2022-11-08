@@ -52,7 +52,7 @@
             >
               <div [formGroup]="activeEnvironmentForm">
                 <div class="d-flex">
-                  <div class="mw0 pr-2">
+                  <div class="mw0 pe-2">
                     <div
                       *ngIf="
                         !editingName ||
@@ -84,7 +84,7 @@
                       (blur)="disableNameEdit()"
                     />
                   </div>
-                  <div class="ml-auto">
+                  <div class="ms-auto">
                     <app-svg
                       class="text-primary"
                       [ngClass]="{
@@ -108,7 +108,7 @@
                 >
                   <app-svg
                     *ngIf="environment.tlsOptions.enabled"
-                    class="text-warning pr-1"
+                    class="text-warning pe-1"
                     icon="https"
                     size="12"
                     ngbTooltip="TLS enabled"

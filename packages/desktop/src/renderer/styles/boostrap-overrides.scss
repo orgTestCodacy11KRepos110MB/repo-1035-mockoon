@@ -86,13 +86,6 @@
 label {
   color: $gray-400;
 }
-.input-group-prepend,
-.input-group-append {
-  .btn {
-    // remove input group btn big padding 8/16px (do not know where it comes from)
-    padding: 1px 6px;
-  }
-}
 
 .badge {
   transition: none;
@@ -156,7 +149,6 @@ label {
     $input-btn-padding-y-xs,
     $input-btn-padding-x-xs,
     $font-size-xs,
-    $input-btn-line-height-xs,
     $btn-border-radius-xs
   );
 }
@@ -167,7 +159,6 @@ label {
     $input-btn-padding-y-xxs,
     $input-btn-padding-x-xxs,
     $font-size-xxs,
-    $input-btn-line-height-xxs,
     $btn-border-radius-xxs
   );
 }
@@ -176,7 +167,7 @@ label {
   padding: $input-btn-padding-y $input-btn-padding-x;
 }
 
-.custom-select {
+.form-select {
   &:focus {
     color: $gray-200;
   }
